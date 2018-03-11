@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "homepage",
+    "description": "Content found on home page"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "multiple": false
+    },
+    "content": {
+      "type": "text",
+      "multiple": false
+    }
+  }
+}

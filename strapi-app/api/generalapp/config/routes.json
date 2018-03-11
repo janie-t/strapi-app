@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/generalapp",
+      "handler": "Generalapp.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/generalapp/:_id",
+      "handler": "Generalapp.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/generalapp",
+      "handler": "Generalapp.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/generalapp/:_id",
+      "handler": "Generalapp.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/generalapp/:_id",
+      "handler": "Generalapp.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

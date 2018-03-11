@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "features",
+    "description": "TYP features"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "multiple": false
+    },
+    "body_text": {
+      "type": "text",
+      "multiple": false
+    }
+  }
+}

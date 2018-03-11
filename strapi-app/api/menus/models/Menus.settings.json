@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "menus",
+    "description": "Page urls"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "url": {
+      "type": "string",
+      "multiple": false
+    },
+    "label": {
+      "type": "string",
+      "multiple": false
+    }
+  }
+}
